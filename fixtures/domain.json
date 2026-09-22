@@ -3,15 +3,47 @@
   "参与角色": [
     "学员",
     "军史专家",
-    "文学编辑",
-    "美术编辑"
+    "作家",
+    "画家",
+    "编辑"
   ],
-  "参考状态": [
+  "学科": [
+    "军史",
+    "文学",
+    "美术"
+  ],
+  "实体类型": [
+    "史料",
+    "脚本",
+    "人物设定",
+    "草图",
+    "分镜页"
+  ],
+  "页面状态": [
     "构思中",
     "待评审",
     "联合会审",
     "精稿中",
     "可出版"
+  ],
+  "意见状态": [
+    "open 待签署",
+    "signed 已签署",
+    "adopted 已采纳",
+    "in_review 会审中",
+    "addressed 核验关闭",
+    "withdrawn 采纳/签署后撤回（保留不可删）",
+    "dismissed 会审推翻"
+  ],
+  "交付阻断码": [
+    "major_fact_open 重大事实未关闭",
+    "review_open 联合会审未裁决",
+    "comment_unresolved 生效意见未核验",
+    "stale_dependency 依赖修订陈旧",
+    "confidentiality_active 保密期内",
+    "license_expired 授权过期",
+    "license_scope_denied 出版范围未授权",
+    "stage_not_publishable 未达可出版"
   ],
   "说明": "字段仅用于统一领域称谓，业务记录应由正式接口产生。"
 }
